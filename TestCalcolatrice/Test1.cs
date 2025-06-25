@@ -17,8 +17,7 @@ namespace TestCalcolatrice
         {
             Calcolatrice calcolatrice = new Calcolatrice();
             double risultato = calcolatrice.Somma(0, 3);
-            // sbagliato!!!
-            Assert.AreEqual(4, risultato, "La somma di 0 e 3 dovrebbe essere 5");
+            Assert.AreEqual(3, risultato, "La somma di 0 e 3 dovrebbe essere 5");
         }
 
         [TestMethod]
